@@ -16,6 +16,9 @@ export class BigCardComponent implements OnInit {
   @Input()
   cardDescription:string = ""
 
+  @Input()
+  topicLink:string = ""
+
   constructor() { }
 
   ngOnInit(): void {
